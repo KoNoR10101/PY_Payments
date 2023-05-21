@@ -94,9 +94,11 @@ def information_obr(message):
         buyMenu(message)
 
 
-    elif message.text == '✏Написать разработчику':
-        text = 'вот ссылка: https://t.me/NOreVerseSHELL'
-        bot.send_message(message.chat.id, text)
+    elif message.text == '✏Написать разработчикам':
+        dev1 = 'вот ссылка: https://t.me/NOreVerseSHELL'
+        dev2 = 'вот ссылка: https://t.me/mems810'
+        bot.send_message(message.chat.id, dev1)
+        bot.send_message(message.chat.id, dev2)
 
     elif message.text == 'оплатить товар 1💳':
         buy1 = 'вот ссылка: https://oplata.qiwi.com/form?invoiceUid=5388b2bb-2303-45a1-a869-d106f313dc05'
