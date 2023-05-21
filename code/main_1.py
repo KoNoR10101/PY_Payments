@@ -4,7 +4,7 @@ from img import Deagle, Awp, Nova, Music_kit
 import sqlite3
 import random
 
-bot = telebot.TeleBot('6173123594:AAEdnBacKch67wWdhPa1nAkQeJxMgJmwKhM')
+bot = telebot.TeleBot('Token')
 
 not_correct_answer = ['Извини, я не понял', 'Try again', 'Повторите попытку']  # некорректные сообщения
 
